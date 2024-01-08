@@ -1,9 +1,20 @@
+import Navbar from "./components/Navbar";
+import About from "./components/About";
+import Projects from "./components/Projects";
+import Skills from "./components/Skills";
+import Contact from "./components/Contact"
 
 function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-    Hello world!
-  </h1>
+    <>
+        <main className='text-gray-400 bg-gray-900 body-font'>
+      <Navbar/>
+      <About/>
+      <Skills/>
+      <Projects/>
+      <Contact/>    
+    </main>
+    </>
   );
 }
 
