@@ -109,7 +109,7 @@ function Navbar() {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='manzitre@gmail.com'
+              href='mailto:manzitre@gmail.com'
             >
               Email <HiOutlineMail size={30} />
             </a>
@@ -117,7 +117,7 @@ function Navbar() {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='/'
+              href='/resume.pdf'
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>
