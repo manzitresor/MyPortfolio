@@ -4,11 +4,12 @@ import magician from "../assets/Capture.JPG"
 import badget from "../assets/badget.JPG"
 import reacticon from "../assets/react.png";
 import rails from "../assets/rails.png";
-import github from "../assets/rails.png";
+import github from "../assets/github.png";
 import javascript from "../assets/javascript.png";
 import Tailwind from "../assets/tailwind.png";
 import Mongo from "../assets/mongo.png";
-import Node from "../assets/github.png";
+import Node from "../assets/node.png";
+import typescript from '../assets/Typescript.svg.png';
 
 export const projects = [
     {
@@ -74,8 +75,8 @@ export const projects = [
     },
     {
       id: 5,
-      skill: "Javascript",
-      icon: javascript
+      skill: "Typescript",
+      icon: typescript
     },
     {
       id: 6,
